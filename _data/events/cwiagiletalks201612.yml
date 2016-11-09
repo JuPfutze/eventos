@@ -1,0 +1,17 @@
+# ATENÇÃO:
+# - `name` e `date` são obrigatórios
+# - se não souber algum dado, apague a linha
+# - apague os comentários (tudo que tem um `#` na frente)
+
+name: CWI Agile Talks # não colocar o ano do evento no nome
+date: 02/12/2016 # formato dd/MM/yyyy. Para vários dias, separe por vírgula: 28/01/2015, 29/01/2015
+time: 13:00 - 18:00 # formato HH:mm
+type: 1 # 0 ou em branco para Externo, 1 para Interno
+location: Auditório Unitec - Tecnosinos São Leopoldo # o nome do lugar
+address: AV. UNISINOS 950 - SÃO LEOPOLDO/RS # o endereço do lugar
+price: 0 # valor sem centavos. Se gratuito, informe 0. Para vários valores (lotes), separe por vírgula: 180, 240, 300
+url: http://cwi.typeform.com/to/mayDcm # URL do site do evento
+#img: http://sitedoevento.com.br/logo.png # URL da imagem do evento. Máximo de 100kb. Ideal < 50kb
+description: Um evento que promove a troca de conhecimentos e experiências sobre Agile. Venha compartilhar suas experiências sobre processos e técnicas ágeis que colaboram para entregas de projetos e produtos. Venha nos falar sobre testes, desenvolvimento, gestão, análise de negócio e tudo mais que achares válido.
+
+tags: Agile, CWI, ComoMeuTimeFaz, Talks, Dojo # no máximo umas 5 ou 6 tags, separadas por vírgula
