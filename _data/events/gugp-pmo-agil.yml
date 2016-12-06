@@ -1,0 +1,16 @@
+# ATENÇÃO:
+# - `name` e `date` são obrigatórios
+# - se não souber algum dado, apague a linha
+# - apague os comentários (tudo que tem um `#` na frente)
+
+name: GUGP - PMO Ágil - Palestra: Escritório de Projetos Agíl
+date: 07/12/2016
+time: 19:00 - 21:00
+type: 0
+location: TECNOPUC - Auditório Global - Sala 101
+address: Avenida Ipiranga, 6681 - Auditório Global - Sala 101 Bairro Partenon, Porto Alegre/RS
+price: 1kg de alimento # valor sem centavos. Se gratuito, informe 0. Para vários valores (lotes), separe por vírgula: 180, 240, 300
+url: http://www.gugppmoagil.eventize.com.br/index.php
+#img: http://sitedoevento.com.br/logo.png # URL da imagem do evento. Máximo de 100kb. Ideal < 50kb
+description: O último evento de 2016 do GUGP terá como tema Escritório de Projetos Ágil. O evento será no formato de palestra, e contará com a presença do Fábio Cruz, na qual será abordado temas sobre como gerenciar estrategicamente múltiplos projetos com apoio dos princípios e valores ágeis e com a utilização de ferramentas e frameworks ágeis como Scrum, Kanban, Lean e Canvas..
+tags: agile, gugp, pmo, projetos
