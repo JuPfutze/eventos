@@ -1,0 +1,10 @@
+name: Microsoft Tech Summit
+date: 07/11/2016, 08/11/2016
+type: 0
+location: Transamerica Expo Center
+address: Av. Dr. Mário Villas Boas Rodrigues, 387 – Santo Amaro - São Paulo – SP
+price: 0 # valor sem centavos. Se gratuito, informe 0. Para vários valores (lotes), separe por vírgula: 180, 240, 300
+url: https://www.microsoft.com/pt-br/techsummit/sao-paulo.aspx
+img: https://cloud.githubusercontent.com/assets/1766903/19134870/1c869ff4-8b37-11e6-856e-3237ff23dcc3.png
+description: Aperfeiçoe suas habilidades na nuvem com dois dias de treinamento gratuito
+tags: microsoft, azure
