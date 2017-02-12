@@ -98,4 +98,7 @@ export function getEvents() {
     })
     .sort(sortEvents)
   })
+  .catch(reason => {
+    console.error('Erro ao obter dados dos eventos', reason)
+  })
 }
