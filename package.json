@@ -9,7 +9,7 @@
   "scripts": {
     "test": "gulp test",
     "lint": "gulp lint",
-    "ci": "gulp ci; npm run coverage; npm run check-coverage",
+    "ci": "gulp ci",
     "qa": "gulp qa",
     "build-prod": "gulp build-prod",
     "build-dev": "gulp build-dev",
