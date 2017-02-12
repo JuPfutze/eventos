@@ -3,7 +3,7 @@ export default {
   configGlob: ['config/**/*.js', '*.js'],
   imgGlob: 'src/img/**/*.{jpg,jpeg,png,gif}',
   scriptsGlob: 'src/js/**/*.js',
-  testsGlob: 'test/**/*.js',
+  testsGlob: ['test/**/*.js', '!test/data/**/*.js'],
   testFile: 'test/index.js',
 
   // dest

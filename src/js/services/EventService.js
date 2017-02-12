@@ -41,7 +41,8 @@ function formatDate(dateStr) {
 }
 
 function formatYear(dateStr) {
-  return formatDateArray(dateStr)[0].getFullYear()
+  const date = formatDateArray(dateStr)[0]
+  return date ? date.getFullYear() : date
 }
 
 function formatIsPast(dateStr) {
@@ -97,8 +98,5 @@ export function getEvents() {
       return prepareEventData(event)
     })
     .sort(sortEvents)
-  })
-  .catch(reason => {
-    console.error('Erro ao obter dados dos eventos', reason)
   })
 }
