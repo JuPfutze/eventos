@@ -1,0 +1,11 @@
+name: Rails Girls Novo Hamburgo
+date: 10/03/2017, 11/03/2017 # formato dd/MM/yyyy. Para vários dias, separe por vírgula: 28/01/2015, 29/01/2015
+time: Não definido # formato HH:mm
+type: 0 # 0 ou em branco para Externo, 1 para Interno
+location: Universidade Feevale # o nome do lugar
+address: Univesidade Feevale Câmpus II ERS-239, 2755 Sala 201 - Salão de Exposições (Prédio arenito) Novo Hamburgo - RS # o endereço do lugar
+price: 0 # valor sem centavos. Se gratuito, informe 0. Para vários valores (lotes), separe por vírgula: 180, 240, 300
+url: http://railsgirls.com/novohamburgo # URL do site do evento
+img: http://railsgirls.com/images/railsgirls-sq.png # URL da imagem do evento. Máximo de 100kb. Ideal < 50kb
+description: O Rails Girls é uma iniciativa voluntária, da comunidade de usuários de Ruby on Rails, que pretende aproximar meninas do universo da programação, ambiente ainda majoritariamente composto por homens, e podendo assim estimular a curiosidade e interesse pela área.
+tags: rubyonrails, girlpower, ruby, rails, workshop # no máximo umas 5 ou 6 tags, separadas por vírgula
