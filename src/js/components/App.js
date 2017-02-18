@@ -27,7 +27,8 @@ export default class App extends React.Component {
         events,
       }, this.filterEvents)
     })
-    .catch(() => {
+    .catch(reason => {
+      console.error('Erro ao obter dados dos eventos', reason)
       this.setState({
         loaded: true,
       })

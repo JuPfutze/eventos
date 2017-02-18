@@ -94,8 +94,14 @@ export function getEvents() {
     return data
     .map((event, index) => {
       event.id = index
-      return prepareEventData(event)
+      try {
+        return prepareEventData(event)
+      } catch (e) {
+        console.log('Erro ao preparar dados do evento', e, event)
+        return null
+      }
     })
+    .filter(event => event !== null)
     .sort(sortEvents)
   })
 }
